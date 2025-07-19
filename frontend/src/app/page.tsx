@@ -3,9 +3,6 @@ import Dropzone from "../components/Dropzone";
 import PreviewStep from "../components/PreviewStep";
 import { useState } from "react";
 
-// ...rest of your codeimport PreviewStep from "../components/PreviewStep";
-import { useState } from "react";
-
 export default function Home() {
   const [file, setFile] = useState<File | null>(null);
 
